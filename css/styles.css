@@ -1,5 +1,31 @@
-/* Jumbotron Customization */
+/* Use my own font */
 
-.jumbotron {
-  text-align: center;
+html{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  padding-top: 0;
+}
+
+/* Navbar Customization */
+
+.navbar-custom {
+    background: white;
+    font-weight: 700;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: white;
+  }
+
+.carousel-caption {
+  font-weight: 900;
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+.carousel-caption h1 {
+  font-weight: 900;
+  font-size: 3em;
 }
