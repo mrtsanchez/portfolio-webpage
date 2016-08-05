@@ -4,20 +4,7 @@ html{
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-body {
-  padding-top: 0;
-}
-
-/* Navbar Customization */
-
-.navbar-custom {
-    background: white;
-    font-weight: 700;
-  }
-
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-      border-color: white;
-  }
+/* Carousel Customization */
 
 .carousel-caption {
   font-weight: 900;
@@ -28,4 +15,38 @@ body {
 .carousel-caption h1 {
   font-weight: 900;
   font-size: 3em;
+}
+
+/* Section Titles */
+
+h2 {
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 3em;
+}
+
+h3 {
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 3em;
+color: white;
+}
+
+.col-title {
+  background: #101010;
+}
+
+.container-custom {
+  padding: 10px;
+  margin-top: 10px;
+}
+/* Custom Styles */
+
+h4 {
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 500;
+font-size: 2em;
+color: white;
 }
